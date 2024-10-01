@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INEB-D</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;   
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            background-color: #444; 
+            padding: 1em;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 1em;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .comments {
+            margin: 20px 0;
+        }
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .gallery img {
+            width: 30%;
+            margin: 10px 0;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 1em;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>Instituto Nacional De Educación Básica Y Diversificada Sergio Leonel Celis Navas
+        <h2>  Sumpango Sacatepéquez</h1>
+    </header>
+
+    <!-- Menú de opciones -->
+    <nav>
+        <a href="#publicaciones">Publicaciones</a>
+        <a href="#comentarios">Comentarios</a>
+        <a href="#galeria">Galería</a>
+        <a href="#redes">Redes Sociales</a>
+    </nav>
+
+    <div class="container">
+        <!-- Módulo de Publicaciones -->
+        <section id="publicaciones">
+            <h2>Publicaciones</h2>
+            <textarea rows="5" cols="60" placeholder="Escribe una publicación..."></textarea><br>
+            <button>Publicar</button>
+        </section>
+
+        <!-- Módulo de Comentarios -->
+        <section id="comentarios" class="comments">
+            <h2>Comentarios</h2>
+            
+            <textarea rows="3" cols="60" placeholder="Escribe un comentario..."></textarea><br>
+            <button>Comentar</button>
+        </section>
+        
+        <!-- Galería de imágenes -->
+        <section id="galeria" class="gallery">
+            <h2>Galería</h2>
+            <img src="C:\Users\Usuario\Downloads\lima.jpg"style="width:400px;height:400px;">
+            <img src="C:\Users\Usuario\Documents\limita.jpg"style="width:400px;height:400px;">
+            <img src="C:\Users\Usuario\Documents\xicon..jpg"style="width:500px;height:400px;">
+        </section>
+
+        <!-- Hipervínculo a redes sociales -->
+        <section id="redes">
+            <h2>Redes Sociales</h2>
+            <a href="https://facebook.com" target="_blank">Visítanos en Facebook</a><br>
+            <a href="https://twitter.com" target="_blank">Síguenos en Twitter</a>
+        </section>
+    </div>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 INEB-D. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
